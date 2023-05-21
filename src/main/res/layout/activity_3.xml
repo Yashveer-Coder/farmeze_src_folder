@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity3">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="631dp"
+        android:layout_height="936dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629"
+        app:srcCompat="@drawable/inrbg" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="395dp"
+        android:layout_height="58dp"
+        android:text="गेहूं रतुआ के प्रभाव विस्तार से"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="372dp"
+        android:layout_height="492dp"
+        android:text="ज़ंग कई आर्थिक रूप से महत्वपूर्ण पौधों की प्रजातियों को प्रभावित करता है और आमतौर पर पत्तियों, युवा टहनियों और फलों पर पीले, नारंगी, लाल, ज़ंग, भूरे या काले पाउडर जैसे दानों के रूप में दिखाई देता है। पौधों की वृद्धि और उत्पादकता आमतौर पर कम हो जाती है, और कुछ पौधे मुरझा जाते हैं और मर जाते हैं।"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+</androidx.constraintlayout.widget.ConstraintLayout>
